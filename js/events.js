@@ -6,7 +6,6 @@ function getIt() {
 
 function frameIt() {
   $('img').on("click", function() {
-    alert();
     $('img').addClass("tasty")
   })
 }
