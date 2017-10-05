@@ -13,6 +13,7 @@ function frameIt() {
 function pressIt() {
   $('#typing').on("keydown", function(k) {
     if(parseInt(k.which) == 70) {
+          console.log(k.which)
       alert("G")
     }
   })
